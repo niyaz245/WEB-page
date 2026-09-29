@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/sca-25c.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ala-too</title>
+</head>
+<body>
+<main>
+    <p><strong>Niyaz</strong></p>
+    
+    <h1>My skills</h1>
+    <p>Welcom to the my page.</p>
+
+      <h2>Мои навыки, а также доп.курсы</h2>
+      <p>Условные данные для разбора таблиц. Таблицы предназначены для данных моих вне школьных занятий, не для вёрстки страницы.</p>
+      <!-- table — таблица; caption — её название; tr — строка;
+           th — заголовочная ячейка; td — ячейка с данными.
+           Без CSS браузер может не рисовать границы. Это нормально. -->
+      <table>
+        <caption>Пример список моих навыков</caption>
+        <thead>
+          <tr>
+            <th scope="col">Навыки</th>
+            <th scope="col">Время</th>
+            <th scope="col">Где занимаюсь?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="rowgroup" rowspan="2">IELTS,Java</th>
+            <td>17:00–19:20</td>
+            <td>BSC cources</td>
+          </tr><tr>
+ </tr><tr>
+            <th scope="rowgroup" rowspan="2">SAT,Python</th>
+            <td>18:00-20:00</td>
+            <td>AUCA college</td>
+          </tr><tr>
+          </tr><tr>
+            <th scope="row">IELTS,Java</th>
+            <td>17:00–19:20</td>
+            <td>BSC cources</td>
+        </tr><tr>
+            <th scope="rowgroup" rowspan="2">SAT,Python</th>
+            <td>18:00-20:00</td>
+            <td>AUCA college</td>
+            </tr>
+
+        <tr>
+            <th scope="row">IELTS,Java</th>
+            <td>17:00–19:20</td>
+            <td>BSC cources</td>
+            </tr>
+
+            <tr>
+            <th scope="row">SAT,Python</th>
+            <td>18:00-20:00</td>
+            <td>AUCA college</td>
+          </tr><tr>
+        </tr></tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="3">Всего  вне классных занятий</th>
+            <td>4</td>
+          </tr>
+        </tfoot>
+      </table>
+      <!-- rowspan объединяет строки, colspan — столбцы. -->
+    
+
+        <img src="./my website_files/Ney.jfif" "="">
+        <header> 
+
+                   <h1>Мой музыкальный плеер в VS Code</h1>
+    <p>Сейчас играет: Justin Bieber-Confident </p>
+
+    <!-- Аудиоплеер с кнопками управления -->
+    <audio controls="">
+        <source src="track.mp3.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает элемент audio.
+    </audio>
+
+   <h1>Моё встроенное видео</h1>
+    <p>Посмотрите этот ролик прямо на сайте:</p>
+
+    <!-- Контейнер с вашим кодом YouTube -->
+    <div class="video-container">
+        <iframe width="560" height="315" src="./my website_files/ez6Jm6RmzVE.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+    </div>
+
+
+</header></main>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
